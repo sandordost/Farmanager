@@ -3,7 +3,7 @@
     {"id":{"name":"StartRoom","path":"rooms/StartRoom/StartRoom.yy",},"order":1,},
     {"id":{"name":"EndGame","path":"rooms/EndGame/EndGame.yy",},"order":2,},
     {"id":{"name":"objInventory","path":"objects/objInventory/objInventory.yy",},"order":0,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"GameRoom","path":"rooms/GameRoom/GameRoom.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -17,8 +17,8 @@
     "children": [],
   },
   "RoomOrder": [
-    {"name":"StartRoom","path":"rooms/StartRoom/StartRoom.yy",},
     {"name":"EndGame","path":"rooms/EndGame/EndGame.yy",},
+    {"name":"StartRoom","path":"rooms/StartRoom/StartRoom.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Tile Sets/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
