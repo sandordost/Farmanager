@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sTileCottage",
-    "path": "sprites/sTileCottage/sTileCottage.yy",
+    "name": "spr_TileCottage",
+    "path": "sprites/spr_TileCottage/spr_TileCottage.yy",
   },
   "tileWidth": 32,
   "tileHeight": 32,
@@ -11,8 +11,8 @@
   "tilevsep": 0,
   "spriteNoExport": true,
   "textureGroupId": {
-    "name": "",
-    "path": "",
+    "name": "Default",
+    "path": "texturegroups/Default",
   },
   "out_tilehborder": 2,
   "out_tilevborder": 2,

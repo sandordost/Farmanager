@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sTileTerrian",
-    "path": "sprites/sTileTerrian/sTileTerrian.yy",
+    "name": "spr_TileTerrian",
+    "path": "sprites/spr_TileTerrian/spr_TileTerrian.yy",
   },
   "tileWidth": 32,
   "tileHeight": 32,
@@ -11,8 +11,8 @@
   "tilevsep": 0,
   "spriteNoExport": true,
   "textureGroupId": {
-    "name": "",
-    "path": "",
+    "name": "Default",
+    "path": "texturegroups/Default",
   },
   "out_tilehborder": 2,
   "out_tilevborder": 2,
