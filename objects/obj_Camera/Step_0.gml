@@ -26,9 +26,12 @@
 
 ///Follow Target
 if(switchDone){
-
-	cameraX = target.x - (cameraWidth/2);
-	cameraY = target.y - (cameraHeight/2);
+	with(target){
+		var targetX = x;
+		var targetY = y;
+	}
+	cameraX = targetX - (cameraWidth/2);
+	cameraY = targetY - (cameraHeight/2);
 }
 
 //---Optional || Might be bugged //
@@ -36,6 +39,10 @@ if(switchDone){
 //cameraY = clamp(cameraY, 0 , room_width-cameraHeight);
 //---END OF OPTIONAL PART
 camera_set_view_pos(view_camera[0],cameraX,cameraY)
+
+x += cameraX;
+y += cameraY;
+
 
 
 

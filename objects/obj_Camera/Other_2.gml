@@ -5,7 +5,7 @@ cameraX = 0;
 cameraY = 0;
 switchDone = false;
 
-if(global.pause){
+if(!global.pause){
 	target = obj_Player;
 }
 
@@ -31,8 +31,8 @@ surface_resize(application_surface,displayWidth,displayHeight);
 //setting an alarm once for screenadjustment(runs smoother)
 alarm[0] = 1;
 //second alarm for starting the game so Camera is able to set a target
-if(global.pause){
-	alarm[1] = room_speed*3;
+if(!global.pause){
+	alarm[1] = 1;
 }
 
 //Adjusting GUI size to e in line with cam size
