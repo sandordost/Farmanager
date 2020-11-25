@@ -1,5 +1,14 @@
 /// @description ?
 
+///SCORE CHECKING ONLY FOR DEVELOPMENT
+if(keyboard_check(vk_space)){
+		score++;
+}
+/// END OF CHECK
+
+
+
+
 
 //==============MOVEMENT
 //--------------Update input
@@ -39,6 +48,7 @@ if(moveY != 0){
 				y += sign(moveY);
 			}
 			moveY=0;
+
 	}
 }
 
@@ -50,3 +60,9 @@ x += moveX;
 y += moveY;
 
 //===============END MOVEMENT
+
+
+
+
+
+

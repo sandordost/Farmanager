@@ -39,6 +39,7 @@
     {"id":{"name":"spr_BaseMale_5","path":"sprites/spr_BaseMale_5/spr_BaseMale_5.yy",},"order":9,},
     {"id":{"name":"spr_DefaultBackground","path":"sprites/spr_DefaultBackground/spr_DefaultBackground.yy",},"order":3,},
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"order":0,},
+    {"id":{"name":"obj_Money","path":"objects/obj_Money/obj_Money.yy",},"order":2,},
     {"id":{"name":"spr_FemaleTorsoRed","path":"sprites/spr_FemaleTorsoRed/spr_FemaleTorsoRed.yy",},"order":0,},
     {"id":{"name":"GameWorld","path":"rooms/GameWorld/GameWorld.yy",},"order":0,},
   ],
