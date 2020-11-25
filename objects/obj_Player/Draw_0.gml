@@ -1,5 +1,11 @@
 
 
+//Stops the drawing of the character
+if(global.pause){
+	debug_event("stop drawing player");
+	exit;
+}
+
 ///Drawing the Character
 var anim_lengt = 9
 var frame_size = 64;

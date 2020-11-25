@@ -3,7 +3,12 @@
 //Camera
 cameraX = 0;
 cameraY = 0;
-target = obj_Player;
+switchDone = false;
+
+if(global.pause){
+	target = obj_Player;
+}
+
 screenWidtAdjustment = 16;
 screenHeightAdjustment = 9;
 
@@ -25,7 +30,10 @@ window_set_size(displayWidth,displayHeight);
 surface_resize(application_surface,displayWidth,displayHeight);
 //setting an alarm once for screenadjustment(runs smoother)
 alarm[0] = 1;
-
+//second alarm for starting the game so Camera is able to set a target
+if(global.pause){
+	alarm[1] = room_speed*3;
+}
 
 //Adjusting GUI size to e in line with cam size
 display_set_gui_size(cameraWidth, cameraHeight);
