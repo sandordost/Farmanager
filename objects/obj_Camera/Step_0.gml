@@ -25,7 +25,8 @@
 
 
 ///Follow Target
-if(switchDone){
+if(global.pause == false){
+		target = obj_Player;
 	with(target){
 		var targetX = x;
 		var targetY = y;

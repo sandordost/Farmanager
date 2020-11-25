@@ -5,9 +5,6 @@ cameraX = 0;
 cameraY = 0;
 switchDone = false;
 
-if(!global.pause){
-	target = obj_Player;
-}
 
 screenWidtAdjustment = 16;
 screenHeightAdjustment = 9;
