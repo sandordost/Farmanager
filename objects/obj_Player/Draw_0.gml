@@ -19,15 +19,15 @@ if(xFrame + (anim_speed/60)< anim_lengt-1)		{ xFrame += anim_speed/60;	}
 else											{ xFrame = 0;				}
 
 // Draw character Base
-draw_sprite_part(spr_base, 0,floor(xFrame)*frame_size,yFrame*frame_size,frame_size,frame_size,xx,yy)
+draw_sprite_part(spr_base, 0,floor(xFrame)*frame_size,yFrame*frame_size,frame_size,frame_size,xx,yy);
 // Draw character Feet
-draw_sprite_part(spr_feet, 0,floor(xFrame)*frame_size,yFrame*frame_size,frame_size,frame_size,xx,yy)
+draw_sprite_part(spr_feet, 0,floor(xFrame)*frame_size,yFrame*frame_size,frame_size,frame_size,xx,yy);
 // Draw character Legs
-draw_sprite_part(spr_legs, 0,floor(xFrame)*frame_size,yFrame*frame_size,frame_size,frame_size,xx,yy)
+draw_sprite_part(spr_legs, 0,floor(xFrame)*frame_size,yFrame*frame_size,frame_size,frame_size,xx,yy);
 // Draw character Torso
-draw_sprite_part(spr_torso, 0,floor(xFrame)*frame_size,yFrame*frame_size,frame_size,frame_size,xx,yy)
+draw_sprite_part(spr_torso, 0,floor(xFrame)*frame_size,yFrame*frame_size,frame_size,frame_size,xx,yy);
 // Draw character Hair
-draw_sprite_part(spr_hair, 0,floor(xFrame)*frame_size,yFrame*frame_size,frame_size,frame_size,xx,yy)
+draw_sprite_part(spr_hair, 0,floor(xFrame)*frame_size,yFrame*frame_size,frame_size,frame_size,xx,yy);
 
 
 
