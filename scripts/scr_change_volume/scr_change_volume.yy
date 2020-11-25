@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "create_menu_page",
+  "name": "scr_change_volume",
   "tags": [],
   "resourceType": "GMScript",
 }

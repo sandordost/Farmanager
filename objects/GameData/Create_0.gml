@@ -1,5 +1,5 @@
 /// @description GameMenu
-script_execute(start_game);
+script_execute(scr_start_game);
 global.pause			= true;
 global.view_widt		= camera_get_view_width(view_camera[0]);
 global.view_height		= camera_get_view_height(view_camera[0]);
@@ -40,33 +40,33 @@ enum menu_element_type{
 }
 
 ///CREATE MENU PAGES
-ds_menu_main = create_menu_page(
-	["RESUME"		,	menu_element_type.scriptrunner	,		resume_game			],
+ds_menu_main = scr_create_menu_page(
+	["RESUME"		,	menu_element_type.scriptrunner	,		scr_resume_game			],
 	["SETTINGS"		,	menu_element_type.page_transfer	,		menu_page.settings	],
-	["EXIT"			,	menu_element_type.scriptrunner	,		exit_game			]
+	["EXIT"			,	menu_element_type.scriptrunner	,		scr_exit_game			]
 );
 
-ds_settings = create_menu_page(
+ds_settings = scr_create_menu_page(
 	["AUDIO"		,	menu_element_type.page_transfer	,		menu_page.audio		],
 	["GRAPHICS"		,	menu_element_type.page_transfer	,		menu_page.graphics	],
 	["CONTROLS"		,	menu_element_type.page_transfer	,		menu_page.controls	],
 	["BACK"			,	menu_element_type.page_transfer	,		menu_page.main		]
 );
 
-ds_menu_audio = create_menu_page(
-	["MASTER"		,	menu_element_type.slider		,	change_volume			,	1		,	[0,1]],
-	["SOUNDS"		,	menu_element_type.slider		,	change_volume			,	1		,	[0,1]],
-	["MUSIC"		,	menu_element_type.slider		,	change_volume			,	1		,	[0,1]],
+ds_menu_audio = scr_create_menu_page(
+	["MASTER"		,	menu_element_type.slider		,	scr_change_volume			,	1		,	[0,1]],
+	["SOUNDS"		,	menu_element_type.slider		,	scr_change_volume			,	1		,	[0,1]],
+	["MUSIC"		,	menu_element_type.slider		,	scr_change_volume			,	1		,	[0,1]],
 	["BACK"			,	menu_element_type.page_transfer	,	menu_page.settings		]
 );
 
-ds_menu_graphics = create_menu_page(
-	["RESOLUTION"	,	menu_element_type.shift			,	change_resolution		,	0		,	["384 x 216", "768 x 432","1536 x 874","1920 x 1080"]],
-	["WINDOW MODE"	,	menu_element_type.toggle		,	change_window_mode		,	1		,	["FULLSCREEN", "WINDOWED"]],
+ds_menu_graphics = scr_create_menu_page(
+	["RESOLUTION"	,	menu_element_type.shift			,	scr_change_resolution		,	0		,	["384 x 216", "768 x 432","1536 x 874","1920 x 1080"]],
+	["WINDOW MODE"	,	menu_element_type.toggle		,	scr_change_window_mode		,	1		,	["FULLSCREEN", "WINDOWED"]],
 	["BACK"			,	menu_element_type.page_transfer	,	menu_page.settings		]
 );
 
-ds_menu_controls = create_menu_page(
+ds_menu_controls = scr_create_menu_page(
 	["UP"			,	menu_element_type.input			,	"key_up"			,	vk_up		],
 	["LEFT"			,	menu_element_type.input			,	"key_left"			,	vk_left		],
 	["RIGHT"		,	menu_element_type.input			,	"key_right"			,	vk_right	],

@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "pause_game",
+  "name": "scr_pause_game",
   "tags": [],
   "resourceType": "GMScript",
 }

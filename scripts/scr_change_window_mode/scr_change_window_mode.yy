@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "change_window_mode",
+  "name": "scr_change_window_mode",
   "tags": [],
   "resourceType": "GMScript",
 }

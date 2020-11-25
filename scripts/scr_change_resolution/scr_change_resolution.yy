@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "change_resolution",
+  "name": "scr_change_resolution",
   "tags": [],
   "resourceType": "GMScript",
 }

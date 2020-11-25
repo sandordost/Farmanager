@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "exit_game",
+  "name": "scr_resume_game",
   "tags": [],
   "resourceType": "GMScript",
 }

@@ -1,9 +1,5 @@
 /// @description INPUT SYSTEM
 ///Stopping all instances 
-if(!global.pause){
-	room_goto(StartScreen);
-}
-
 if(!global.pause){	
 	exit;
 }

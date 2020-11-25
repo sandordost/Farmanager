@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "resume_game",
+  "name": "scr_create_menu_page",
   "tags": [],
   "resourceType": "GMScript",
 }
