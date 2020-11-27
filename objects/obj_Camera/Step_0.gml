@@ -35,9 +35,9 @@ if(global.pause == false){
 	cameraY = targetY - (cameraHeight/2);
 }
 
-//---Optional || Might be bugged //
-//cameraX = clamp(cameraX, 0 , room_width-cameraWidth);
-//cameraY = clamp(cameraY, 0 , room_width-cameraHeight);
+//---Optional  
+cameraX = clamp(cameraX, 0 , room_width-cameraWidth);
+cameraY = clamp(cameraY, 0 , room_width-cameraHeight);
 //---END OF OPTIONAL PART
 camera_set_view_pos(view_camera[0],cameraX,cameraY)
 
