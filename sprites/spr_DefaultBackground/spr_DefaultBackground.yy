@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b711da69-74ac-41dd-b8f2-57307829b697","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Game",
+    "path": "folders/Sprites/Game.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_DefaultBackground",

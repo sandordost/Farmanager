@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ae52f411-2aa2-4f6d-9f18-e85602c70b33","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "TIle Sprites",
+    "path": "folders/Sprites/TIle Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_TileTerrian",

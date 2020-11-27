@@ -1,4 +1,4 @@
-
+/// @description Drawing Character
 
 //Stops the drawing of the character
 if(global.pause){

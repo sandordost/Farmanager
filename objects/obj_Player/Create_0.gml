@@ -1,4 +1,4 @@
-// @description Create Vars
+/// @description Create Vars
 xFrame = 1;
 yFrame = 8;
 x_offset = sprite_get_xoffset(mask_index);

@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"62c0b87b-2352-4b4b-8969-71650e7c89b1","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Game",
+    "path": "folders/Sprites/Game.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_Collision",

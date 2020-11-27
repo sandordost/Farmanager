@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a665b8fe-f954-4ba8-a7e0-04cd03c87990","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "TIle Sprites",
+    "path": "folders/Sprites/TIle Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_TileCottage",
