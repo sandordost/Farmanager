@@ -7,11 +7,6 @@ if(keyboard_check(vk_space)){
 		score++;
 }
 /// END OF CHECK
-
-
-
-
-
 //==============MOVEMENT
 //--------------Update input
 input_left		=	keyboard_check(vk_left) || keyboard_check_direct(ord("A"));
@@ -54,9 +49,8 @@ if(moveY != 0){
 	}
 }
 
-//Link moveX to global.moveX and saem for %y
-moveX	=	moveX;
-moveY	=	moveY;
+
+
 //---------------Apply Movement
 x += moveX;
 y += moveY;
