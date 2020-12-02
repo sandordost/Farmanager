@@ -1,5 +1,5 @@
 /// @description GameMenu
-script_execute(scr_start_game);
+scr_start_game();
 global.pause			= true;
 global.view_widt		= camera_get_view_width(view_camera[0]);
 global.view_height		= camera_get_view_height(view_camera[0]);
