@@ -1,5 +1,5 @@
 /// @description Character Interactions
-if(keyboard_check_pressed(global.key_openMenu))		{script_execute(scr_pause_game());} 
+if(keyboard_check_pressed(global.key_openMenu))		{scr_pause_game();} 
 else												{global.pause = false;	}
 	
 ///SCORE CHECKING ONLY FOR DEVELOPMENT

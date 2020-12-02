@@ -6,7 +6,7 @@
     "path": "folders/Scripts/Menu_script.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_create_menu_page",
+  "name": "MainMenuScripts",
   "tags": [],
   "resourceType": "GMScript",
 }
