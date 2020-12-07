@@ -1,6 +1,6 @@
 /// @description Character Interactions
-if(keyboard_check_pressed(global.key_openMenu))		{scr_pause_game();} 
-else												{global.pause = false;	}
+if(keyboard_check_pressed(global.key_openMenu))		{scr_pause_game(); } 
+else												{
 	
 ///SCORE CHECKING ONLY FOR DEVELOPMENT
 if(keyboard_check(vk_space)){
@@ -20,42 +20,13 @@ input_sprint	=	keyboard_check(vk_shift);
 if(input_walk || input_sprint)		{spd = abs((input_walk*walkspeed)-(input_sprint*sprintspeed));}
 else								{spd = normalspeed;}
 
-//---------------Reset move variables
-moveX = 0;
-moveY = 0;
-//---------------intended movement
-moveX = (input_right - input_left) * spd;
-if(moveX==0)	{moveY = (input_down - input_up) * spd;}
+if(!global.pause) script_execute(state);
 
-
-//---------------Collision Check
-//----Horizontal Check
-if(moveX !=0){
-	if(place_meeting(x+moveX,y,obj_Collision)){
-		while(!place_meeting(x+sign(moveX),y,obj_Collision)){
-			x += sign(moveX);
-		} 
-		moveX=0;
-	}
-}
-//----Vertical Check
-if(moveY != 0){
-	if(place_meeting(x,y+moveY,obj_Collision)){
-			while(!place_meeting(x,y+sign(moveY),obj_Collision)){
-				y += sign(moveY);
-			}
-			moveY=0;
-
-	}
+depth = -bbox_bottom;
 }
 
 
 
-//---------------Apply Movement
-x += moveX;
-y += moveY;
-
-//===============END MOVEMENT
 
 
 

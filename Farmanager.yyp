@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"spr_TileCottage","path":"sprites/spr_TileCottage/spr_TileCottage.yy",},"order":0,},
     {"id":{"name":"spr_HairFemaleBlond","path":"sprites/spr_HairFemaleBlond/spr_HairFemaleBlond.yy",},"order":1,},
+    {"id":{"name":"PlayerScrips","path":"scripts/PlayerScrips/PlayerScrips.yy",},"order":0,},
     {"id":{"name":"scr_Inventory","path":"scripts/scr_Inventory/scr_Inventory.yy",},"order":1,},
     {"id":{"name":"spr_Collision","path":"sprites/spr_Collision/spr_Collision.yy",},"order":0,},
     {"id":{"name":"spr_HairMaleBlack","path":"sprites/spr_HairMaleBlack/spr_HairMaleBlack.yy",},"order":2,},
@@ -87,8 +88,8 @@
     {"folderPath":"folders/Sprites/Game.yy","order":7,"resourceVersion":"1.0","name":"Game","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/TIle Sprites.yy","order":8,"resourceVersion":"1.0","name":"TIle Sprites","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/Menu_script.yy","order":11,"resourceVersion":"1.0","name":"Menu_script","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Scripts/States.yy","order":12,"resourceVersion":"1.0","name":"States","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Scripts/States/PlayerState.yy","order":1,"resourceVersion":"1.0","name":"PlayerState","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/Player.yy","order":12,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/Player/States & Draw.yy","order":1,"resourceVersion":"1.0","name":"States & Draw","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
