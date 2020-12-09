@@ -5,17 +5,17 @@ ItemList = array_create(0);
 //Create Items
 
 	//Potato
-	array_push(ItemList, CreateItem("Potato", 15, 64, 0, sItemPotato));
+	array_push(ItemList, CreateItem("Potato", 15, 64, 0, sItemPotato, 5));
 
 	//Strawberry
-	array_push(ItemList, CreateItem("Strawberry", 25, 32, 0, sItemStrawberry));
+	array_push(ItemList, CreateItem("Strawberry", 25, 32, 0, sItemStrawberry, 10));
 
 	//Apple
-	array_push(ItemList, CreateItem("Apple", 10, 16, 0, sItemApple));
+	array_push(ItemList, CreateItem("Apple", 10, 16, 0, sItemApple, 20));
 
 	//Pear
-	array_push(ItemList, CreateItem("Pear", 10, 20, 0, sItemApple));
-
+	array_push(ItemList, CreateItem("Pear", 10, 20, 0, sItemApple, 30));
+	
 #endregion
 #region InventoryUI Variables
 inv_sprite = sInventory;

@@ -4,7 +4,6 @@ if(inv_enabled){
 	posX = inv_pos_x + inv_slot_padding_left * inv_scale;
 	posY = inv_pos_y + inv_slot_padding_top * inv_scale;
 	
-
 	for(i = 0; i < array_length(ItemList); i++){
 		if(ItemList[i].ItemCount > 0){
 			if(ItemList[i].ItemCount > ItemList[i].ItemStacksize){
@@ -21,6 +20,7 @@ if(inv_enabled){
 		}
 	}
 }
+
 function CreateInventorySlot(itemSprite, itemCount){
 	currentRow = floor(inv_current_slot / inv_slot_rowsize);
 	posX = inv_pos_x + inv_slot_padding_left * inv_scale + (inv_current_slot mod inv_slot_rowsize) * ((inv_slot_size + inv_slot_space_x) * inv_scale);

@@ -5,7 +5,7 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
-  "physicsObject": true,
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
@@ -20,7 +20,6 @@
   "eventList": [
     {"isDnD":false,"eventNum":83,"eventType":5,"collisionObjectId":null,"parent":{"name":"oInventoryManager","path":"objects/oInventoryManager/oInventoryManager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oInventoryManager","path":"objects/oInventoryManager/oInventoryManager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oInventoryManager","path":"objects/oInventoryManager/oInventoryManager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"parent":{"name":"oInventoryManager","path":"objects/oInventoryManager/oInventoryManager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":65,"eventType":5,"collisionObjectId":null,"parent":{"name":"oInventoryManager","path":"objects/oInventoryManager/oInventoryManager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":68,"eventType":5,"collisionObjectId":null,"parent":{"name":"oInventoryManager","path":"objects/oInventoryManager/oInventoryManager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
