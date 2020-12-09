@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"r_second_upgraderoom","path":"rooms/r_second_upgraderoom/r_second_upgraderoom.yy",},"order":1,},
     {"id":{"name":"spr_TileCottage","path":"sprites/spr_TileCottage/spr_TileCottage.yy",},"order":0,},
     {"id":{"name":"spr_HairFemaleBlond","path":"sprites/spr_HairFemaleBlond/spr_HairFemaleBlond.yy",},"order":1,},
     {"id":{"name":"scr_Inventory","path":"scripts/scr_Inventory/scr_Inventory.yy",},"order":1,},
@@ -21,6 +22,7 @@
     {"id":{"name":"spr_FeetMaleBootsBrown","path":"sprites/spr_FeetMaleBootsBrown/spr_FeetMaleBootsBrown.yy",},"order":3,},
     {"id":{"name":"obj_Collision","path":"objects/obj_Collision/obj_Collision.yy",},"order":0,},
     {"id":{"name":"tile_cottage","path":"tilesets/tile_cottage/tile_cottage.yy",},"order":1,},
+    {"id":{"name":"r_third_upgraderoom","path":"rooms/r_third_upgraderoom/r_third_upgraderoom.yy",},"order":2,},
     {"id":{"name":"GameData","path":"objects/GameData/GameData.yy",},"order":3,},
     {"id":{"name":"spr_MaleTorsoBrown","path":"sprites/spr_MaleTorsoBrown/spr_MaleTorsoBrown.yy",},"order":2,},
     {"id":{"name":"spr_MaskCharacterGeneral","path":"sprites/spr_MaskCharacterGeneral/spr_MaskCharacterGeneral.yy",},"order":6,},
@@ -36,6 +38,7 @@
     {"id":{"name":"spr_FeetMaleBootsBlack","path":"sprites/spr_FeetMaleBootsBlack/spr_FeetMaleBootsBlack.yy",},"order":2,},
     {"id":{"name":"spr_BaseFemale_3","path":"sprites/spr_BaseFemale_3/spr_BaseFemale_3.yy",},"order":2,},
     {"id":{"name":"spr_BaseMale_1","path":"sprites/spr_BaseMale_1/spr_BaseMale_1.yy",},"order":5,},
+    {"id":{"name":"r_first_upgraderoom","path":"rooms/r_first_upgraderoom/r_first_upgraderoom.yy",},"order":0,},
     {"id":{"name":"spr_BaseMale_5","path":"sprites/spr_BaseMale_5/spr_BaseMale_5.yy",},"order":9,},
     {"id":{"name":"spr_DefaultBackground","path":"sprites/spr_DefaultBackground/spr_DefaultBackground.yy",},"order":1,},
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"order":0,},
@@ -59,6 +62,9 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"GameWorld","path":"rooms/GameWorld/GameWorld.yy",},},
+    {"roomId":{"name":"r_first_upgraderoom","path":"rooms/r_first_upgraderoom/r_first_upgraderoom.yy",},},
+    {"roomId":{"name":"r_second_upgraderoom","path":"rooms/r_second_upgraderoom/r_second_upgraderoom.yy",},},
+    {"roomId":{"name":"r_third_upgraderoom","path":"rooms/r_third_upgraderoom/r_third_upgraderoom.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Tile Sets.yy","order":0,"resourceVersion":"1.0","name":"Tile Sets","tags":[],"resourceType":"GMFolder",},
@@ -89,6 +95,7 @@
     {"folderPath":"folders/Scripts/Menu_script.yy","order":11,"resourceVersion":"1.0","name":"Menu_script","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/States.yy","order":12,"resourceVersion":"1.0","name":"States","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/States/PlayerState.yy","order":1,"resourceVersion":"1.0","name":"PlayerState","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Rooms/UpgradeRooms.yy","order":2,"resourceVersion":"1.0","name":"UpgradeRooms","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
