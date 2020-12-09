@@ -83,6 +83,7 @@ function scr_pause_game(){
 	global.pause = true;
 	instance_activate_layer("Menu");
 	instance_deactivate_layer("Instances");
+		show_debug_message("--GAME PAUSED--")
 }
 
 function scr_resume_game(){
@@ -91,12 +92,14 @@ show_debug_message("resume game script");
 //---END
 
 //Start Game Here
+global.pause = false;
 instance_activate_layer("Instances");
 instance_deactivate_layer("Menu");
 }
 
 function scr_start_game(){
 //initialization of instance layer(s)
+global.pause = false;
 instance_activate_layer("Instances");
 instance_deactivate_layer("Instances");
 }

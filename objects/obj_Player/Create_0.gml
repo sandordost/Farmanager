@@ -1,6 +1,12 @@
 /// @description Create Vars
+state = scr_PlayerStateFree;
+lastState= state;
+
+score = 100;
 xFrame = 1;
 yFrame = 8;
+moveX = 0;
+moveY = 0;
 x_offset = sprite_get_xoffset(mask_index);
 y_offset = sprite_get_yoffset(mask_index);
 

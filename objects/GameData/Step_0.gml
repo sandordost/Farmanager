@@ -2,9 +2,9 @@
 ///Stopping all instances 
 if(!global.pause){	
 	exit;
+		
 }
-global.moveX = 0;
-global.moveY = 0;
+
 
 
 input_up_p		=	keyboard_check_pressed(global.key_up);
