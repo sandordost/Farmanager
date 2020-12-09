@@ -22,6 +22,12 @@ function AddItemToInventory(itemName, amount, inventoryArray){
 		}
 	}
 }
-function RemoveItemFromInventory(itemName, amount, inventoryArray){
 
+function RemoveItemFromInventory(itemName, amount, inventoryArray){
+	for(i = 0; i < array_length(inventoryArray); i++){
+		if(inventoryArray[i].ItemName == itemName){
+			if(inventoryArray[i].ItemCount < amount) inventoryArray[i].ItemCount = 0;
+			else inventoryArray[i].ItemCount -= amount;
+		}
+	}
 }
