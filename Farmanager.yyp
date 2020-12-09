@@ -12,6 +12,7 @@
     {"id":{"name":"spr_BaseFemale_2","path":"sprites/spr_BaseFemale_2/spr_BaseFemale_2.yy",},"order":1,},
     {"id":{"name":"spr_TileTerrian","path":"sprites/spr_TileTerrian/spr_TileTerrian.yy",},"order":1,},
     {"id":{"name":"spr_FeetFemaleLongboots","path":"sprites/spr_FeetFemaleLongboots/spr_FeetFemaleLongboots.yy",},"order":1,},
+    {"id":{"name":"r_first_gameroom","path":"rooms/r_first_gameroom/r_first_gameroom.yy",},"order":0,},
     {"id":{"name":"spr_BaseMale_2","path":"sprites/spr_BaseMale_2/spr_BaseMale_2.yy",},"order":6,},
     {"id":{"name":"spr_FeetFemaleBoots","path":"sprites/spr_FeetFemaleBoots/spr_FeetFemaleBoots.yy",},"order":0,},
     {"id":{"name":"spr_MaleTorsoWhite","path":"sprites/spr_MaleTorsoWhite/spr_MaleTorsoWhite.yy",},"order":3,},
@@ -38,6 +39,7 @@
     {"id":{"name":"obj_Camera","path":"objects/obj_Camera/obj_Camera.yy",},"order":2,},
     {"id":{"name":"spr_BaseFemale_4","path":"sprites/spr_BaseFemale_4/spr_BaseFemale_4.yy",},"order":3,},
     {"id":{"name":"spr_MaleLegsGreen","path":"sprites/spr_MaleLegsGreen/spr_MaleLegsGreen.yy",},"order":2,},
+    {"id":{"name":"r_second_gameroom","path":"rooms/r_second_gameroom/r_second_gameroom.yy",},"order":1,},
     {"id":{"name":"spr_BaseFemale_5","path":"sprites/spr_BaseFemale_5/spr_BaseFemale_5.yy",},"order":4,},
     {"id":{"name":"spr_FeetMaleBootsBlack","path":"sprites/spr_FeetMaleBootsBlack/spr_FeetMaleBootsBlack.yy",},"order":2,},
     {"id":{"name":"spr_BaseFemale_3","path":"sprites/spr_BaseFemale_3/spr_BaseFemale_3.yy",},"order":2,},
@@ -47,6 +49,7 @@
     {"id":{"name":"spr_DefaultBackground","path":"sprites/spr_DefaultBackground/spr_DefaultBackground.yy",},"order":1,},
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"order":0,},
     {"id":{"name":"obj_Money","path":"objects/obj_Money/obj_Money.yy",},"order":1,},
+    {"id":{"name":"r_third_gameroom","path":"rooms/r_third_gameroom/r_third_gameroom.yy",},"order":2,},
     {"id":{"name":"sItemApple","path":"sprites/sItemApple/sItemApple.yy",},"order":0,},
     {"id":{"name":"spr_FemaleTorsoRed","path":"sprites/spr_FemaleTorsoRed/spr_FemaleTorsoRed.yy",},"order":0,},
     {"id":{"name":"MainMenuScripts","path":"scripts/MainMenuScripts/MainMenuScripts.yy",},"order":8,},
@@ -67,6 +70,9 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"GameWorld","path":"rooms/GameWorld/GameWorld.yy",},},
+    {"roomId":{"name":"r_first_gameroom","path":"rooms/r_first_gameroom/r_first_gameroom.yy",},},
+    {"roomId":{"name":"r_second_gameroom","path":"rooms/r_second_gameroom/r_second_gameroom.yy",},},
+    {"roomId":{"name":"r_third_gameroom","path":"rooms/r_third_gameroom/r_third_gameroom.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Tile Sets.yy","order":0,"resourceVersion":"1.0","name":"Tile Sets","tags":[],"resourceType":"GMFolder",},
@@ -100,6 +106,7 @@
     {"folderPath":"folders/Objects/InventoryObjects.yy","order":5,"resourceVersion":"1.0","name":"InventoryObjects","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Inventory_test_sprites.yy","order":10,"resourceVersion":"1.0","name":"Inventory_test_sprites","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Inventory.yy","order":12,"resourceVersion":"1.0","name":"Inventory","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Rooms/GameRooms.yy","order":2,"resourceVersion":"1.0","name":"GameRooms","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
