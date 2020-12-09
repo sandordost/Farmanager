@@ -20,6 +20,7 @@ ItemList = array_create(0);
 #region InventoryUI Variables
 inv_sprite = sInventory;
 inv_enabled = false;
+inv_slot_maxslots = 24;
 inv_scale = 2;
 inv_width = 128 * inv_scale;
 inv_height = 101 * inv_scale;
@@ -31,6 +32,5 @@ inv_slot_rowsize = 6;
 inv_slot_size = 17;
 inv_slot_space_x = 2;
 inv_slot_space_y = 3;
-
 
 #endregion

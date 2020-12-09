@@ -1,2 +1,2 @@
 /// @Add potato to inv
-AddItemToInventory("Potato", 4, ItemList);
+AddItemToInventory("Potato", 4);

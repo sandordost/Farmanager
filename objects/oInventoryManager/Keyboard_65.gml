@@ -1,2 +1,2 @@
 /// Add Apple
-AddItemToInventory("Apple", 2, ItemList);
+AddItemToInventory("Apple", 2);

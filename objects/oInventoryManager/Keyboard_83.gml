@@ -1,1 +1,1 @@
-AddItemToInventory("Strawberry", 1, ItemList);
+AddItemToInventory("Strawberry", 1);
