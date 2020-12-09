@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sInventorySlot",
+    "path": "sprites/sInventorySlot/sInventorySlot.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Inventory",
-    "path": "folders/Objects/Inventory.yy",
+    "name": "InventoryObjects",
+    "path": "folders/Objects/InventoryObjects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Inventory",
+  "name": "oInventorySlot",
   "tags": [],
   "resourceType": "GMObject",
 }
