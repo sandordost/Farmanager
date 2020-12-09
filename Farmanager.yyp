@@ -12,6 +12,7 @@
     {"id":{"name":"spr_BaseMale_4","path":"sprites/spr_BaseMale_4/spr_BaseMale_4.yy",},"order":8,},
     {"id":{"name":"spr_BaseFemale_2","path":"sprites/spr_BaseFemale_2/spr_BaseFemale_2.yy",},"order":1,},
     {"id":{"name":"spr_TileTerrian","path":"sprites/spr_TileTerrian/spr_TileTerrian.yy",},"order":1,},
+    {"id":{"name":"spr_Shadow","path":"sprites/spr_Shadow/spr_Shadow.yy",},"order":7,},
     {"id":{"name":"spr_FeetFemaleLongboots","path":"sprites/spr_FeetFemaleLongboots/spr_FeetFemaleLongboots.yy",},"order":1,},
     {"id":{"name":"r_first_gameroom","path":"rooms/r_first_gameroom/r_first_gameroom.yy",},"order":0,},
     {"id":{"name":"spr_BaseMale_2","path":"sprites/spr_BaseMale_2/spr_BaseMale_2.yy",},"order":6,},
@@ -108,6 +109,7 @@
     {"folderPath":"folders/Sprites/Inventory_test_sprites.yy","order":10,"resourceVersion":"1.0","name":"Inventory_test_sprites","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Inventory.yy","order":12,"resourceVersion":"1.0","name":"Inventory","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Rooms/GameRooms.yy","order":2,"resourceVersion":"1.0","name":"GameRooms","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/WorldObjects.yy","order":6,"resourceVersion":"1.0","name":"WorldObjects","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},

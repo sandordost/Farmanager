@@ -9,7 +9,7 @@
     "name": "spr_Collision",
     "path": "sprites/spr_Collision/spr_Collision.yy",
   },
-  "persistent": true,
+  "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,

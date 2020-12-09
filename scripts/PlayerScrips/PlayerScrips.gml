@@ -30,6 +30,8 @@ draw_sprite_part(spr_legs, 0,floor(xFrame)*frame_size,yFrame*frame_size,frame_si
 draw_sprite_part(spr_torso, 0,floor(xFrame)*frame_size,yFrame*frame_size,frame_size,frame_size,xx,yy);
 // Draw character Hair
 draw_sprite_part(spr_hair, 0,floor(xFrame)*frame_size,yFrame*frame_size,frame_size,frame_size,xx,yy);
+// Draw character Shadow
+draw_sprite(spr_Shadow, 0 ,floor(x) ,floor(y));
 
 
 
