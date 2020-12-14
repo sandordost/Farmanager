@@ -20,6 +20,7 @@
     {"id":{"name":"spr_BaseMale_2","path":"sprites/spr_BaseMale_2/spr_BaseMale_2.yy",},"order":6,},
     {"id":{"name":"spr_FeetFemaleBoots","path":"sprites/spr_FeetFemaleBoots/spr_FeetFemaleBoots.yy",},"order":0,},
     {"id":{"name":"spr_MaleTorsoWhite","path":"sprites/spr_MaleTorsoWhite/spr_MaleTorsoWhite.yy",},"order":3,},
+    {"id":{"name":"instance_create_crop","path":"scripts/instance_create_crop/instance_create_crop.yy",},"order":16,},
     {"id":{"name":"spr_HairFemaleBlack","path":"sprites/spr_HairFemaleBlack/spr_HairFemaleBlack.yy",},"order":0,},
     {"id":{"name":"tile_decorations","path":"tilesets/tile_decorations/tile_decorations.yy",},"order":2,},
     {"id":{"name":"spr_BaseMale_3","path":"sprites/spr_BaseMale_3/spr_BaseMale_3.yy",},"order":7,},

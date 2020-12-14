@@ -17,7 +17,7 @@ if(!ds_exists(ds_crops_types, ds_type_grid)){
 }
 var yy = height-1;
 var i = 0; repeat(argNum){
-ds_crops_types [# i,yy] =  argument[i];
-i += 1;
+	ds_crops_types [# i,yy] =  argument[i];
+	i += 1;
 }
 }
