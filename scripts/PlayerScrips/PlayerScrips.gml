@@ -31,12 +31,12 @@ draw_sprite_part(spr_torso, 0,floor(xFrame)*frame_size,yFrame*frame_size,frame_s
 // Draw character Hair
 draw_sprite_part(spr_hair, 0,floor(xFrame)*frame_size,yFrame*frame_size,frame_size,frame_size,xx,yy);
 // Draw character Shadow
-draw_sprite(spr_Shadow, 0 ,floor(x) ,floor(y));
+draw_sprite(spr_Shadow, 0 ,floor(x) ,floor(y-4));
 
 
 
 //Drawing Collisionsbox for testing
-draw_rectangle(bbox_left,bbox_top,bbox_right,bbox_bottom,c_yellow);
+//draw_rectangle(bbox_left,bbox_top,bbox_right,bbox_bottom,c_yellow);
 }
 
 function scr_PlayerCollision(){
@@ -76,6 +76,10 @@ if(moveX==0)	{moveY = (input_down - input_up) * spd;}
 
 //Collision Check
 scr_PlayerCollision();
+
+if(mouse_check_button(mb_left)){
+	instance_create_crop(mouse_x, mouse_y, crop.corn);
+}
 
 //---------------Apply Movement
 x += moveX;

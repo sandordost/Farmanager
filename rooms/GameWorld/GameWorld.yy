@@ -316,6 +316,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_Money","path":"objects/obj_Money/obj_Money.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_1FF9CB4F","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oInventoryManager","path":"objects/oInventoryManager/oInventoryManager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1760.0,"y":320.0,"resourceVersion":"1.0","name":"inst_A9BB85E","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_Crop","path":"objects/obj_Crop/obj_Crop.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":256.0,"resourceVersion":"1.0","name":"inst_6070CF5E","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"CropData","path":"objects/CropData/CropData.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":true,"inheritItemSettings":false,"x":512.0,"y":1152.0,"resourceVersion":"1.0","name":"inst_E514840","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":900,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"visible":true,"depth":1000,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[
         {"tilesetId":{"name":"tile_terrain","path":"tilesets/tile_terrain/tile_terrain.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":63,"SerialiseHeight":63,"TileSerialiseData":[
@@ -749,6 +750,7 @@
     {"name":"inst_19C431C8","path":"rooms/GameWorld/GameWorld.yy",},
     {"name":"inst_A9BB85E","path":"rooms/GameWorld/GameWorld.yy",},
     {"name":"inst_6070CF5E","path":"rooms/GameWorld/GameWorld.yy",},
+    {"name":"inst_E514840","path":"rooms/GameWorld/GameWorld.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

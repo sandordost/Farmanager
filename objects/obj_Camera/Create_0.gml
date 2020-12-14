@@ -1,5 +1,4 @@
 /// @description Camera Setup
-
 //Camera
 cameraX = 0;
 cameraY = 0;
