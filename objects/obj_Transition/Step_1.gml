@@ -1,4 +1,5 @@
 /// @description Progress Transition
+global.pause = false;
 with(obj_Player)	{state = PlayerStateTransition;}
 if(leading == OUT){
 	percent = min(1, percent + TRANSITION_SPEED);
@@ -9,7 +10,7 @@ if(leading == OUT){
 } else /* leading == IN */{
 	percent = max(0, percent - TRANSITION_SPEED);
 	if(percent <= 0)/*if screen fulley revealed*/{
-		global.pause = false;
+		
 		with(obj_Player)	{state = scr_PlayerStateFree;}
 		instance_destroy();
 	}
