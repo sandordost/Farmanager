@@ -11,11 +11,18 @@
     {"id":{"name":"spr_FemaleLegsMagenta","path":"sprites/spr_FemaleLegsMagenta/spr_FemaleLegsMagenta.yy",},"order":0,},
     {"id":{"name":"r_second_gameroom","path":"rooms/r_second_gameroom/r_second_gameroom.yy",},"order":1,},
     {"id":{"name":"spr_BaseMale_4","path":"sprites/spr_BaseMale_4/spr_BaseMale_4.yy",},"order":8,},
+    {"id":{"name":"obj_second_house","path":"objects/obj_second_house/obj_second_house.yy",},"order":1,},
+    {"id":{"name":"tile_interior","path":"tilesets/tile_interior/tile_interior.yy",},"order":4,},
     {"id":{"name":"spr_BaseFemale_2","path":"sprites/spr_BaseFemale_2/spr_BaseFemale_2.yy",},"order":1,},
     {"id":{"name":"spr_TileTerrian","path":"sprites/spr_TileTerrian/spr_TileTerrian.yy",},"order":1,},
+<<<<<<< Updated upstream
     {"id":{"name":"spr_Crops","path":"sprites/spr_Crops/spr_Crops.yy",},"order":0,},
     {"id":{"name":"spr_Shadow","path":"sprites/spr_Shadow/spr_Shadow.yy",},"order":7,},
+=======
+    {"id":{"name":"obj_third_house","path":"objects/obj_third_house/obj_third_house.yy",},"order":2,},
+>>>>>>> Stashed changes
     {"id":{"name":"spr_FeetFemaleLongboots","path":"sprites/spr_FeetFemaleLongboots/spr_FeetFemaleLongboots.yy",},"order":1,},
+    {"id":{"name":"spr_third_house","path":"sprites/spr_third_house/spr_third_house.yy",},"order":2,},
     {"id":{"name":"r_first_gameroom","path":"rooms/r_first_gameroom/r_first_gameroom.yy",},"order":0,},
     {"id":{"name":"spr_BaseMale_2","path":"sprites/spr_BaseMale_2/spr_BaseMale_2.yy",},"order":6,},
     {"id":{"name":"spr_FeetFemaleBoots","path":"sprites/spr_FeetFemaleBoots/spr_FeetFemaleBoots.yy",},"order":0,},
@@ -26,6 +33,7 @@
     {"id":{"name":"spr_BaseMale_3","path":"sprites/spr_BaseMale_3/spr_BaseMale_3.yy",},"order":7,},
     {"id":{"name":"spr_FeetMaleBootsBrown","path":"sprites/spr_FeetMaleBootsBrown/spr_FeetMaleBootsBrown.yy",},"order":3,},
     {"id":{"name":"obj_Collision","path":"objects/obj_Collision/obj_Collision.yy",},"order":0,},
+    {"id":{"name":"spr_interior","path":"sprites/spr_interior/spr_interior.yy",},"order":2,},
     {"id":{"name":"tile_cottage","path":"tilesets/tile_cottage/tile_cottage.yy",},"order":1,},
     {"id":{"name":"ScrInventory","path":"scripts/ScrInventory/ScrInventory.yy",},"order":0,},
     {"id":{"name":"GameData","path":"objects/GameData/GameData.yy",},"order":3,},
@@ -41,7 +49,9 @@
     {"id":{"name":"oInventoryPlaceholder","path":"objects/oInventoryPlaceholder/oInventoryPlaceholder.yy",},"order":1,},
     {"id":{"name":"spr_FemaleTorsoWhite","path":"sprites/spr_FemaleTorsoWhite/spr_FemaleTorsoWhite.yy",},"order":1,},
     {"id":{"name":"spr_MaleLegsTeal","path":"sprites/spr_MaleLegsTeal/spr_MaleLegsTeal.yy",},"order":3,},
+    {"id":{"name":"obj_first_house","path":"objects/obj_first_house/obj_first_house.yy",},"order":0,},
     {"id":{"name":"tile_terrain","path":"tilesets/tile_terrain/tile_terrain.yy",},"order":3,},
+    {"id":{"name":"spr_second_house","path":"sprites/spr_second_house/spr_second_house.yy",},"order":1,},
     {"id":{"name":"obj_Camera","path":"objects/obj_Camera/obj_Camera.yy",},"order":2,},
     {"id":{"name":"spr_BaseFemale_4","path":"sprites/spr_BaseFemale_4/spr_BaseFemale_4.yy",},"order":3,},
     {"id":{"name":"Sprite37","path":"sprites/Sprite37/Sprite37.yy",},"order":13,},
@@ -54,6 +64,8 @@
     {"id":{"name":"spr_BaseMale_5","path":"sprites/spr_BaseMale_5/spr_BaseMale_5.yy",},"order":9,},
     {"id":{"name":"CropData","path":"objects/CropData/CropData.yy",},"order":0,},
     {"id":{"name":"sItemStrawberry","path":"sprites/sItemStrawberry/sItemStrawberry.yy",},"order":2,},
+    {"id":{"name":"rm_farm_house1","path":"rooms/rm_farm_house1/rm_farm_house1.yy",},"order":3,},
+    {"id":{"name":"spr_first_house","path":"sprites/spr_first_house/spr_first_house.yy",},"order":0,},
     {"id":{"name":"spr_DefaultBackground","path":"sprites/spr_DefaultBackground/spr_DefaultBackground.yy",},"order":1,},
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"order":0,},
     {"id":{"name":"r_third_gameroom","path":"rooms/r_third_gameroom/r_third_gameroom.yy",},"order":2,},
@@ -61,7 +73,11 @@
     {"id":{"name":"sItemApple","path":"sprites/sItemApple/sItemApple.yy",},"order":0,},
     {"id":{"name":"spr_FemaleTorsoRed","path":"sprites/spr_FemaleTorsoRed/spr_FemaleTorsoRed.yy",},"order":0,},
     {"id":{"name":"MainMenuScripts","path":"scripts/MainMenuScripts/MainMenuScripts.yy",},"order":8,},
+<<<<<<< Updated upstream
     {"id":{"name":"scr_create_crop_type","path":"scripts/scr_create_crop_type/scr_create_crop_type.yy",},"order":15,},
+=======
+    {"id":{"name":"rm_farm_house2","path":"rooms/rm_farm_house2/rm_farm_house2.yy",},"order":4,},
+>>>>>>> Stashed changes
     {"id":{"name":"GameWorld","path":"rooms/GameWorld/GameWorld.yy",},"order":1,},
   ],
   "Options": [
@@ -82,6 +98,8 @@
     {"roomId":{"name":"r_first_gameroom","path":"rooms/r_first_gameroom/r_first_gameroom.yy",},},
     {"roomId":{"name":"r_second_gameroom","path":"rooms/r_second_gameroom/r_second_gameroom.yy",},},
     {"roomId":{"name":"r_third_gameroom","path":"rooms/r_third_gameroom/r_third_gameroom.yy",},},
+    {"roomId":{"name":"rm_farm_house1","path":"rooms/rm_farm_house1/rm_farm_house1.yy",},},
+    {"roomId":{"name":"rm_farm_house2","path":"rooms/rm_farm_house2/rm_farm_house2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Tile Sets.yy","order":0,"resourceVersion":"1.0","name":"Tile Sets","tags":[],"resourceType":"GMFolder",},
@@ -116,9 +134,14 @@
     {"folderPath":"folders/Sprites/Inventory_test_sprites.yy","order":10,"resourceVersion":"1.0","name":"Inventory_test_sprites","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Inventory.yy","order":12,"resourceVersion":"1.0","name":"Inventory","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Rooms/GameRooms.yy","order":2,"resourceVersion":"1.0","name":"GameRooms","tags":[],"resourceType":"GMFolder",},
+<<<<<<< Updated upstream
     {"folderPath":"folders/Objects/WorldObjects.yy","order":6,"resourceVersion":"1.0","name":"WorldObjects","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Crops.yy","order":7,"resourceVersion":"1.0","name":"Crops","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Crops.yy","order":14,"resourceVersion":"1.0","name":"Crops","tags":[],"resourceType":"GMFolder",},
+=======
+    {"folderPath":"folders/Sprites/Rooms.yy","order":13,"resourceVersion":"1.0","name":"Rooms","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Houses.yy","order":6,"resourceVersion":"1.0","name":"Houses","tags":[],"resourceType":"GMFolder",},
+>>>>>>> Stashed changes
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
