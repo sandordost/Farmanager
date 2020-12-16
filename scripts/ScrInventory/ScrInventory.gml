@@ -17,17 +17,17 @@ function CreateItem(itemName, itemCost, itemStacksize, itemCount, itemSpriteInde
 }
 function AddItemToInventory(itemName, amount){
 	if(CountUsedInventorySlots() < inv_slot_maxslots){
-		for(i = 0; i < array_length(ItemList); i++){
-			if(ItemList[i].ItemName == itemName){
-				ItemList[i].ItemCount+= amount;
+		for(i = 0; i < array_length(oInventoryManager.ItemList); i++){
+			if(oInventoryManager.ItemList[i].ItemName == itemName){
+				oInventoryManager.ItemList[i].ItemCount+= amount;
 			}
 		}
 	}
 	else{
-		for(i = 0; i < array_length(ItemList); i++){
-			if(ItemList[i].ItemName == itemName){
-				while((ItemList[i].ItemCount mod ItemList[i].ItemStacksize) > 0 && amount > 0){
-					ItemList[i].ItemCount++;
+		for(i = 0; i < array_length(oInventoryManager.ItemList); i++){
+			if(oInventoryManager.ItemList[i].ItemName == itemName){
+				while((oInventoryManager.ItemList[i].ItemCount mod oInventoryManager.ItemList[i].ItemStacksize) > 0 && amount > 0){
+					oInventoryManager.ItemList[i].ItemCount++;
 					amount++;
 				}
 			}
@@ -35,22 +35,30 @@ function AddItemToInventory(itemName, amount){
 	}
 }
 function RemoveItemFromInventory(itemName, amount){
-	for(i = 0; i < array_length(ItemList); i++){
-		if(ItemList[i].ItemName == itemName){
-			if(ItemList[i].ItemCount < amount) ItemList[i].ItemCount = 0;
-			else ItemList[i].ItemCount -= amount;
+	for(i = 0; i < array_length(oInventoryManager.ItemList); i++){
+		if(oInventoryManager.ItemList[i].ItemName == itemName){
+			if(oInventoryManager.ItemList[i].ItemCount < amount) oInventoryManager.ItemList[i].ItemCount = 0;
+			else oInventoryManager.ItemList[i].ItemCount -= amount;
 		}
 	}
 }
 function CountUsedInventorySlots(){
 	var slots = 0;
-	for(i = 0; i < array_length(ItemList); i++){
-		slots += ceil(ItemList[i].ItemCount / ItemList[i].ItemStacksize);
+	for(i = 0; i < array_length(oInventoryManager.ItemList); i++){
+		slots += ceil(oInventoryManager.ItemList[i].ItemCount / oInventoryManager.ItemList[i].ItemStacksize);
 	}
 	return slots;
 }
 function ClearInventory(){
-	for(i = 0; i < array_length(ItemList); i++){
-		ItemList[i].ItemCount = 0;
+	for(i = 0; i < array_length(oInventoryManager.ItemList); i++){
+		oInventoryManager.ItemList[i].ItemCount = 0;
+	}
+}
+function InInventory(itemName, amount){
+	for(i = 0; i < array_length(oInventoryManager.ItemList); i++){
+		if(oInventoryManager.ItemList[i].ItemName == itemName){
+			if(oInventoryManager.ItemList[i].ItemCount < amount) return false;
+			else return true;
+		}
 	}
 }

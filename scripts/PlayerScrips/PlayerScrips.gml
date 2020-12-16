@@ -77,10 +77,6 @@ if(moveX==0)	{moveY = (input_down - input_up) * spd;}
 //Collision Check
 scr_PlayerCollision();
 
-if(mouse_check_button(mb_left)){
-	instance_create_crop(mouse_x, mouse_y, crop.corn);
-}
-
 //---------------Apply Movement
 x += moveX;
 y += moveY;

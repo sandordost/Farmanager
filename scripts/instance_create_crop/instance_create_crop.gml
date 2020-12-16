@@ -8,7 +8,7 @@ function instance_create_crop(mouse_x, mouse_y, crop_type){
 	with(inst){
 		growthStageDuration = CropData.ds_crops_types[# 0, crop_type];
 	}
-	show_debug_message(string(inst))
+	show_debug_message(string(inst));
 	return inst;
 	
 }

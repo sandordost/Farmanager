@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 8,
-  "bbox_right": 25,
+  "bbox_left": 11,
+  "bbox_right": 22,
   "bbox_top": 8,
-  "bbox_bottom": 27,
+  "bbox_bottom": 26,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"6591da98-8ba9-4b08-825d-48c1c4f8fe9d","path":"sprites/sItemStrawberry/sItemStrawberry.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6591da98-8ba9-4b08-825d-48c1c4f8fe9d","path":"sprites/sItemStrawberry/sItemStrawberry.yy",},"LayerId":{"name":"354fc7d6-0c9b-4ad4-b0aa-e4a9a9b60da0","path":"sprites/sItemStrawberry/sItemStrawberry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sItemStrawberry","path":"sprites/sItemStrawberry/sItemStrawberry.yy",},"resourceVersion":"1.0","name":"6591da98-8ba9-4b08-825d-48c1c4f8fe9d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8c4fb088-3108-4a80-b4f1-6f30c3975f3e","path":"sprites/sPotatoSeeds/sPotatoSeeds.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8c4fb088-3108-4a80-b4f1-6f30c3975f3e","path":"sprites/sPotatoSeeds/sPotatoSeeds.yy",},"LayerId":{"name":"05314eb2-6de5-4aef-aa1e-c0b4a02cd4f5","path":"sprites/sPotatoSeeds/sPotatoSeeds.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sPotatoSeeds","path":"sprites/sPotatoSeeds/sPotatoSeeds.yy",},"resourceVersion":"1.0","name":"8c4fb088-3108-4a80-b4f1-6f30c3975f3e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sItemStrawberry","path":"sprites/sItemStrawberry/sItemStrawberry.yy",},
+    "spriteId": {"name":"sPotatoSeeds","path":"sprites/sPotatoSeeds/sPotatoSeeds.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"b93616a3-c240-4068-8c54-e68954c01016","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6591da98-8ba9-4b08-825d-48c1c4f8fe9d","path":"sprites/sItemStrawberry/sItemStrawberry.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"892db960-a4ec-444f-9f02-e3d0cbdbfdad","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8c4fb088-3108-4a80-b4f1-6f30c3975f3e","path":"sprites/sPotatoSeeds/sPotatoSeeds.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sItemStrawberry","path":"sprites/sItemStrawberry/sItemStrawberry.yy",},
+    "parent": {"name":"sPotatoSeeds","path":"sprites/sPotatoSeeds/sPotatoSeeds.yy",},
     "resourceVersion": "1.3",
-    "name": "sItemStrawberry",
+    "name": "sPotatoSeeds",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"354fc7d6-0c9b-4ad4-b0aa-e4a9a9b60da0","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"05314eb2-6de5-4aef-aa1e-c0b4a02cd4f5","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Items",
     "path": "folders/Sprites/Items.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sItemStrawberry",
+  "name": "sPotatoSeeds",
   "tags": [],
   "resourceType": "GMSprite",
 }

@@ -25,7 +25,7 @@ function CreateInventorySlot(itemSprite, itemCount){
 	currentRow = floor(inv_current_slot / inv_slot_rowsize);
 	posX = inv_pos_x + inv_slot_padding_left * inv_scale + (inv_current_slot mod inv_slot_rowsize) * ((inv_slot_size + inv_slot_space_x) * inv_scale);
 	itemPosYOffset = currentRow * (inv_slot_size + inv_slot_space_y) * inv_scale;
-	draw_sprite_ext(itemSprite, 0, posX, posY + itemPosYOffset, inv_scale, inv_scale, 0, c_white, 1);
+	draw_sprite_ext(itemSprite, 0, posX, posY + itemPosYOffset, inv_item_scale, inv_item_scale, 0, c_white, 1);
 	draw_text_transformed(posX, posY + itemPosYOffset, itemCount, inv_scale / 2.5, inv_scale / 2.5, 0);
 	inv_current_slot++;
 }

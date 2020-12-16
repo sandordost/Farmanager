@@ -16,12 +16,16 @@ ItemList = array_create(0);
 	//Pear
 	array_push(ItemList, CreateItem("Pear", 10, 20, 0, sItemApple, 30));
 	
+	//Potato Seeds
+	array_push(ItemList, CreateItem("PotatoSeeds", 20, 16, 0, sPotatoSeeds, 0));
+	
 #endregion
 #region InventoryUI Variables
 inv_sprite = sInventory;
 inv_enabled = false;
 inv_slot_maxslots = 24;
 inv_scale = 2;
+inv_item_scale = 1;
 inv_width = 128 * inv_scale;
 inv_height = 101 * inv_scale;
 inv_pos_x = display_get_gui_width() - inv_width;
