@@ -1,8 +1,13 @@
 /// @description GameMenu
-scr_start_game();
+if(!instance_exists(obj_Transition))	{scr_start_game();}
 global.pause			= true;
 global.view_widt		= camera_get_view_width(view_camera[0]);
 global.view_height		= camera_get_view_height(view_camera[0]);
+
+global.TargetRoom = -1;
+global.TargetX = -1;
+global.TargetY = -1;
+global.TargetDirection = 0;
 
 
 

@@ -39,6 +39,7 @@ function scr_change_window_mode(arg){
 }
 
 function scr_create_menu_page(){
+	show_debug_message("Create Menu page");
 //@arg ["Name1",type1,entries1....]
 //@arg ["Name2",type2,entries1....]
 
@@ -102,5 +103,6 @@ function scr_start_game(){
 global.pause = false;
 instance_activate_layer("Instances");
 instance_deactivate_layer("Instances");
+show_debug_message("Start Script")
 }
 	
