@@ -1,7 +1,6 @@
 /// @description GUI
 if(!global.pause){
 	exit;
-	
 }
 
 var gwidth	= global.view_widt;

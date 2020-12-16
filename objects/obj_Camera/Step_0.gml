@@ -21,28 +21,24 @@
 ////x-view_w_half makes sure the the left topcorner is centered in the middle, same goes for y and height
 //camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
 
-
-
-
 ///Follow Target
-if(global.pause == false){
-		target = obj_Player;
-	with(target){
-		var targetX = x;
-		var targetY = y;
-	}
-	cameraX = targetX - (cameraWidth/2);
-	cameraY = targetY - (cameraHeight/2);
+if(instance_exists(follow)){
+	xTo = follow.x;
+	yTo = follow.y
 }
 
-//---Optional  
-cameraX = clamp(cameraX, 0 , room_width-cameraWidth);
-cameraY = clamp(cameraY, 0 , room_width-cameraHeight);
-//---END OF OPTIONAL PART
-camera_set_view_pos(view_camera[0],cameraX,cameraY)
+//update Object Position
+x += (xTo - x) / 15;
+y += (yTo - y) / 15;
 
-x += cameraX;
-y += cameraY;
+//Keep Camera Center inside Room
+x = clamp(x, viewWidthHalf, room_width-viewWidthHalf);
+y = clamp(y, viewHeightHalf, room_height-viewHeightHalf);
+
+
+//Setting Actual Camera Position
+camera_set_view_pos(cam , x - viewWidthHalf, y - viewHeightHalf);
+
 
 
 
