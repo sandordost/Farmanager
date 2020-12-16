@@ -16,6 +16,12 @@
     {"instances":[],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Transition","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_Camera","path":"objects/obj_Camera/obj_Camera.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_5F8B9B3E","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"first_house","path":"objects/first_house/first_house.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.09691329,"scaleX":0.536791265,"scaleY":0.472817183,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1408.0,"y":960.0,"resourceVersion":"1.0","name":"inst_64459DB2","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"TargetRoom","path":"objects/obj_CaveEnter/obj_CaveEnter.yy",},"objectId":{"name":"obj_CaveEnter","path":"objects/obj_CaveEnter/obj_CaveEnter.yy",},"value":"rm_farm_house1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+            {"propertyId":{"name":"TargetY","path":"objects/obj_CaveEnter/obj_CaveEnter.yy",},"objectId":{"name":"obj_CaveEnter","path":"objects/obj_CaveEnter/obj_CaveEnter.yy",},"value":"663","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+            {"propertyId":{"name":"TargetX","path":"objects/obj_CaveEnter/obj_CaveEnter.yy",},"objectId":{"name":"obj_CaveEnter","path":"objects/obj_CaveEnter/obj_CaveEnter.yy",},"value":"703","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"obj_CaveEnter","path":"objects/obj_CaveEnter/obj_CaveEnter.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1696.0,"y":1248.0,"resourceVersion":"1.0","name":"inst_1ED2A820","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Camera","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"GameData","path":"objects/GameData/GameData.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":64.0,"resourceVersion":"1.0","name":"inst_262E7BDD","tags":[],"resourceType":"GMRInstance",},
@@ -758,6 +764,8 @@
     {"name":"inst_6070CF5E","path":"rooms/GameWorld/GameWorld.yy",},
     {"name":"inst_E514840","path":"rooms/GameWorld/GameWorld.yy",},
     {"name":"inst_4F859324","path":"rooms/GameWorld/GameWorld.yy",},
+    {"name":"inst_64459DB2","path":"rooms/GameWorld/GameWorld.yy",},
+    {"name":"inst_1ED2A820","path":"rooms/GameWorld/GameWorld.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
