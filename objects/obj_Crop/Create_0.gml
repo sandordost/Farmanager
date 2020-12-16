@@ -11,3 +11,6 @@ inv_obj_name = "";
 
 fullyGrown = false;
 spark = false;
+
+xx = x-(frameWidth/2)+2;
+yy = y-frameHeight+6;
