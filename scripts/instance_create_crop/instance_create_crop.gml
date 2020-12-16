@@ -1,15 +1,15 @@
 ///@description instance_create_crop
-///@arg x
-///@arg y
-///@arg crop_type
-function instance_create_crop(){
+function instance_create_crop(mouse_x, mouse_y, crop_type){
 //create the instance
-	var inst = instance_create_layer(argument0, argument1, "Instances", CropData.corn);
+	var inst = instance_create_layer(mouse_x, mouse_y, "Instances", obj_Crop);
+	show_debug_message(string(mouse_x) + " " + string(mouse_y));
 
 //Give the crop its characteristics
 	with(inst){
-		cropType = argument2;
-		growthStageDuration = CropData.ds_crops_types[# 0, cropType];
+		growthStageDuration = CropData.ds_crops_types[# 0, crop_type];
 	}
+	show_debug_message(string(inst))
 	return inst;
+	
 }
+

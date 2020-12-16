@@ -2,7 +2,7 @@
 frameWidth = 32;
 frameHeight = 64;
 
-cropType = 0;
+cropType = 2;
 daysOld = 0;
 growthStage = 3;
 growthStageDuration = 0;

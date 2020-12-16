@@ -78,7 +78,7 @@ if(moveX==0)	{moveY = (input_down - input_up) * spd;}
 scr_PlayerCollision();
 
 if(mouse_check_button(mb_left)){
-	instance_create_crop(mouse_x, mouse_y, CropData.corn);
+	instance_create_crop(mouse_x, mouse_y, crop.corn);
 }
 
 //---------------Apply Movement
@@ -87,10 +87,4 @@ y += moveY;
 
 //===============END MOVEMENT
 
-}
-function PlayerStateTransition(){
-	//Movement
-	scr_PlayerCollision();
-	//Update Image Sprite
-	scr_PlayerAnimationSprite();
 }

@@ -21,4 +21,3 @@ sprintspeed = 4;
 normalspeed = 2;
 walkspeed = 1;
 spd = normalspeed;
-
