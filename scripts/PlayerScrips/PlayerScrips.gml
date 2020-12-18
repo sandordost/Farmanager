@@ -84,3 +84,7 @@ y += moveY;
 //===============END MOVEMENT
 
 }
+function scr_PlayerStateTransition(){
+	//Movement
+	scr_PlayerCollision();
+}
