@@ -1,4 +1,8 @@
 /// @description Character Interactions
+
+
+
+
 if(keyboard_check_pressed(global.key_openMenu))		{scr_pause_game(); } 
 else												{
 	
@@ -26,7 +30,6 @@ if(!global.pause) script_execute(state);
 
 depth = -bbox_bottom;
 }
-
 
 
 
