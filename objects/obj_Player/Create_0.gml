@@ -21,3 +21,11 @@ sprintspeed = 4;
 normalspeed = 2;
 walkspeed = 1;
 spd = normalspeed;
+
+/// Roomtransition check
+show_debug_message("global.TargetX: " + string(global.TargetX))
+if(global.TargetX != -1){
+	x = global.TargetX;
+	y = global.TargetY;
+	direction = global.TargetDirection;
+}

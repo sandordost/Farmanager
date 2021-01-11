@@ -1,0 +1,6 @@
+#macro TRANSITION_SPEED 0.02
+#macro OUT 0
+#macro IN 1
+
+#macro RESOLUTION_W 500
+#macro RESOLUTION_H	500
