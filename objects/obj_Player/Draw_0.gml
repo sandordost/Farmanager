@@ -7,3 +7,4 @@ if(global.pause){
 } else {
 	scr_PlayerAnimationSprite(moveX, moveY);
 }
+
