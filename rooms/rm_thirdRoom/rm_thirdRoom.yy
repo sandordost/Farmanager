@@ -15,6 +15,7 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_Camera","path":"objects/obj_Camera/obj_Camera.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_5F8B9B3E","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_thirdHouse","path":"objects/obj_thirdHouse/obj_thirdHouse.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.854047835,"scaleY":0.837974668,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1248.0,"y":960.0,"resourceVersion":"1.0","name":"inst_725E81F","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Camera","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Transition","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
@@ -760,6 +761,7 @@
     {"name":"inst_E514840","path":"rooms/rm_thirdRoom/rm_thirdRoom.yy",},
     {"name":"inst_7E84CF4B","path":"rooms/rm_thirdRoom/rm_thirdRoom.yy",},
     {"name":"inst_6599350F","path":"rooms/rm_thirdRoom/rm_thirdRoom.yy",},
+    {"name":"inst_725E81F","path":"rooms/rm_thirdRoom/rm_thirdRoom.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

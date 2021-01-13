@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_thirdHouse",
+    "path": "sprites/spr_thirdHouse/spr_thirdHouse.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
