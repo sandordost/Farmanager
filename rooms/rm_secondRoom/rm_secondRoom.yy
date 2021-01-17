@@ -21,6 +21,8 @@
             {"propertyId":{"name":"TargetY","path":"objects/obj_CaveEnter/obj_CaveEnter.yy",},"objectId":{"name":"obj_CaveEnter","path":"objects/obj_CaveEnter/obj_CaveEnter.yy",},"value":"669","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"TargetRoom","path":"objects/obj_CaveEnter/obj_CaveEnter.yy",},"objectId":{"name":"obj_CaveEnter","path":"objects/obj_CaveEnter/obj_CaveEnter.yy",},"value":"rm_secondHouse","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_CaveEnter","path":"objects/obj_CaveEnter/obj_CaveEnter.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1616.0,"y":1248.0,"resourceVersion":"1.0","name":"inst_7F12D4CB","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1600.0,"y":1280.0,"resourceVersion":"1.0","name":"inst_5C3966DB","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_Money","path":"objects/obj_Money/obj_Money.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":192.0,"resourceVersion":"1.0","name":"inst_6E25419","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Camera","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Transition","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
@@ -768,6 +770,8 @@
     {"name":"inst_6599350F","path":"rooms/rm_secondRoom/rm_secondRoom.yy",},
     {"name":"inst_2146AD09","path":"rooms/rm_secondRoom/rm_secondRoom.yy",},
     {"name":"inst_7F12D4CB","path":"rooms/rm_secondRoom/rm_secondRoom.yy",},
+    {"name":"inst_5C3966DB","path":"rooms/rm_secondRoom/rm_secondRoom.yy",},
+    {"name":"inst_6E25419","path":"rooms/rm_secondRoom/rm_secondRoom.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

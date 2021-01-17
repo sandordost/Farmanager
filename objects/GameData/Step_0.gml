@@ -11,6 +11,8 @@ input_up_p		=	keyboard_check_pressed(global.key_up);
 input_down_p	=	keyboard_check_pressed(global.key_down);
 input_enter_p	=	keyboard_check_pressed(global.key_enter);
 
+
+
 var ds_ = menu_pages[page],	ds_height = ds_grid_height(ds_);
 
 //When wanting to user want input giving in

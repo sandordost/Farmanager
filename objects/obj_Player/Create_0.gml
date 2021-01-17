@@ -29,3 +29,4 @@ if(global.TargetX != -1){
 	y = global.TargetY;
 	direction = global.TargetDirection;
 }
+
